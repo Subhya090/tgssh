@@ -84,4 +84,4 @@ fi
 sudo pip3 install telegram paramiko
 
 # Run the Python script with the provided inputs
-python3 /path/to/your/python/script.py "$bot_token" "$chat_id" "$ssh_hostname" "$ssh_username" "$ssh_password"
+python3 /workspace/private/tgssh/tgSSH.py "$bot_token" "$chat_id" "$ssh_hostname" "$ssh_username" "$ssh_password"
